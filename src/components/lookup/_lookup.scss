@@ -199,6 +199,32 @@
     margin: 0;
   }
 
+  .modal-content {
+    .toolbar {
+      .buttonset {
+        .searchfield-wrapper {
+          .btn-icon {
+            top: 4px;
+  
+            .close.icon {
+              border: 1px solid transparent;
+              top: -1px;
+            }
+  
+            &:focus {
+              .close.icon {
+                display: block;
+                position: relative;
+                left: 2px;
+                top: 1px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   .modal-header {
     padding: 20px 20px 10px;
   }
